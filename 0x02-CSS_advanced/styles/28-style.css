@@ -251,4 +251,5 @@ ul.row {
     display: var(--header-logo-link-display);
     position: var(--header-logo-link-position);
     vertical-align: var(--header-logo-link-display);
+    text-align: var(--header-logo-link-left);
 }
