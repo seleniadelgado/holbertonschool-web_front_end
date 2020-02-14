@@ -1,0 +1,8 @@
+/*For each name in the list assign a background image on the name*/
+@import "11-photos.scss";
+
+@each $person in $list-names {
+    .photo-#{$person} {
+        background: image-url("photos/#{$person}.png") no-repeat
+    }
+}
