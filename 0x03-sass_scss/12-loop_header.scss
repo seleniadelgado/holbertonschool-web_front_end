@@ -1,7 +1,7 @@
 /*Loop headers*/
 $header: h;
 
-@for $i from 1 to 5 {
+@for $i from 1 to 6 {
     #{$header}#{$i} {
         font-size: 0px + $i
     }
