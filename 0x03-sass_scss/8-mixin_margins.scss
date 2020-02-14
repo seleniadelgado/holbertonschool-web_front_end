@@ -1,10 +1,11 @@
 /* Margin mixin */
-@margin($property)
-    body {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    div {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
+@mixin center($px){
+    margin-left: $px;
+    margin-right: $px;
+}
+body {
+    @include center(10px);
+}
+div {
+    @include center(15px)
+}
